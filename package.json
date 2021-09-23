@@ -1,0 +1,38 @@
+{
+    "name": "mock-objects",
+    "version": "1.0.0",
+    "description": "typescript library to create mocks for different kind of objects and arrays",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "jest",
+      "test:watch": "npm run build & jest --watch",
+      "start": "npx ts-node src/index.ts",
+      "build": "npx tsc src/index.ts"
+    },
+    "author": "Milton Velilla",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/miltonvelillac/clone-data.git"
+    },
+    "keywords": [
+      "typescript",
+      "javascript",
+      "clone",
+      "clone",
+      "object",
+      "clone",
+      "array",
+      "clone",
+      "map",
+      "clone",
+      "set",
+      "clone",
+      "in",
+      "deep"
+    ],
+    "bugs": {
+      "url": "https://github.com/miltonvelillac/clone-data/issues"
+    },
+    "homepage": "https://github.com/miltonvelillac/clone-data#readme"
+  }
